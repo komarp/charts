@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  hello-world-app:
+  - apiVersion: v2
+    appVersion: 4.0.0
+    created: "2022-09-20T22:45:56.192864783+03:00"
+    description: My first Helm Chart for testing
+    digest: ba3c916fbb6ba5a58099beb0ed7fa4462cd112b0e6ac73bc46845026aed62d4e
+    name: hello-world-app
+    type: application
+    urls:
+    - hello-world-app-4.0.0.tgz
+    version: 4.0.0
   woonley:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2022-09-20T22:20:41.927284563+03:00"
+    created: "2022-09-20T22:45:56.193046661+03:00"
     description: Woonley description
     digest: f6665497011aa0d257d968aa65f92d9536581b3fb7747b671759233c8a1c714e
     name: woonley
@@ -13,7 +24,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-09-20T22:20:41.927189071+03:00"
+    created: "2022-09-20T22:45:56.192955395+03:00"
     description: Woonley description
     digest: dc96b1950455dd56f86d6b5342ff7da2b7e4d98af1ae0ac408ba631d52c3dd47
     name: woonley
@@ -21,4 +32,4 @@ entries:
     urls:
     - woonley-1.0.0.tgz
     version: 1.0.0
-generated: "2022-09-20T22:20:41.92696519+03:00"
+generated: "2022-09-20T22:45:56.192594163+03:00"
